@@ -1,4 +1,4 @@
-agement.checkForUpdates": "local",
+rUpdates": "local",
 				"go.useLanguageServer": true,
 				"go.gopath": "/go"
 			}
