@@ -17,7 +17,8 @@ If anything feels off, or if you feel that some functionality is missing, please
 If you are a hubber and are interested in shipping new commands for the CLI, check out our [doc on internal contributions][intake-doc].
 
 <!-- this anchor is linked to from elsewhere, so avoid renaming it -->
-## Installation
+Reset
+
 
 ### macOS
 
