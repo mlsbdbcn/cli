@@ -1,36 +1,4 @@
-package git
-
-import (
-	"bytes"
-	"context"
-	"errors"
-	"fmt"
-	"os"
-	"os/exec"
-	"path/filepath"
-	"strconv"
-	"strings"
-	"testing"
-
-	"github.com/stretchr/testify/assert"
-)
-
-func TestClientCommand(t *testing.T) {
-	tests := []struct {
-		name     string
-		repoDir  string
-		gitPath  string
-		wantExe  string
-		wantArgs []string
-	}{
-		{
-			name:     "creates command",
-			gitPath:  "path/to/git",
-			wantExe:  "path/to/git",
-			wantArgs: []string{"path/to/git", "ref-log"},
-		},
-		{
-			name:     "adds repo directory configuration",
+ion",
 			repoDir:  "path/to/repo",
 			gitPath:  "path/to/git",
 			wantExe:  "path/to/git",
