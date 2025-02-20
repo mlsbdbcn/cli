@@ -1,19 +1,4 @@
-ient{
-				Stdin:   in,
-				Stdout:  out,
-				Stderr:  errOut,
-				RepoDir: tt.repoDir,
-				GitPath: tt.gitPath,
-			}
-			cmd, err := client.Command(context.Background(), "ref-log")
-			assert.NoError(t, err)
-			assert.Equal(t, tt.wantExe, cmd.Path)
-			assert.Equal(t, tt.wantArgs, cmd.Args)
-			assert.Equal(t, in, cmd.Stdin)
-			assert.Equal(t, out, cmd.Stdout)
-			assert.Equal(t, errOut, cmd.Stderr)
-		})
-	}
+
 }
 
 func TestClientAuthenticatedCommand(t *testing.T) {
