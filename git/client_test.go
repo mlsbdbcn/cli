@@ -1,14 +1,4 @@
-ion",
-			repoDir:  "path/to/repo",
-			gitPath:  "path/to/git",
-			wantExe:  "path/to/git",
-			wantArgs: []string{"path/to/git", "-C", "path/to/repo", "ref-log"},
-		},
-	}
-	for _, tt := range tests {
-		t.Run(tt.name, func(t *testing.T) {
-			in, out, errOut := &bytes.Buffer{}, &bytes.Buffer{}, &bytes.Buffer{}
-			client := Client{
+ient{
 				Stdin:   in,
 				Stdout:  out,
 				Stderr:  errOut,
